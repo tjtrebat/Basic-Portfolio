@@ -119,13 +119,14 @@ button {
     width: 200px;
 }
 
-.portfolio-images > li {
-    display: inline-block;
-    margin-bottom: 25px;
+.portfolio-images {
+    margin: 0 auto;
+    width: 750px;
 }
 
 .portfolio-images > li {
-    margin-right: 30px;
+    display: inline-block;
+    margin: 20px;
 }
 
 .caption {
