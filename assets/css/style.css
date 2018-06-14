@@ -23,6 +23,27 @@ p {
     line-height: 28px;
 }
 
+input[type='text'], textarea {
+    border: 1px solid #ddd;
+    color: #777;
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 5px 10px;
+    margin: 5px 0px 10px 0px;
+    width: calc(100% - 20px);
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #fff;
+    padding: 5px 20px;
+}
+
 #nav {
     background-color: #fff;
     border-bottom: 2px solid #ccc;
@@ -64,6 +85,7 @@ p {
     background-color: #fff;
     border: 1px solid #ddd;
     margin: 0 auto;
+    margin-bottom: 200px;
     width: 960px;
 }
 
