@@ -121,12 +121,12 @@ button {
 
 .portfolio-images {
     margin: 0 auto;
-    width: 750px;
+    width: 900px;
 }
 
 .portfolio-images > li {
     display: inline-block;
-    margin: 20px;
+    margin: 0px 20px 25px 0px;
 }
 
 .caption {
